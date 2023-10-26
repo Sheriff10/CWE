@@ -9,7 +9,7 @@ export default function Trusted() {
                     WORKED AND TRUSTED BY
                 </span>
             </div>
-            <div className="d-flex gap-5 justify-content-center  w-100 ">
+            <div className="d-flex flex-wrap gap-5 justify-content-center  w-100 ">
                <img src="/asset/dtg.jpeg" alt="trusted" />
                <img src="/asset/fewcha.jpeg" alt="trusted" />
                <img src="/asset/smc.jpeg" alt="trusted" />

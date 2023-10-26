@@ -7,7 +7,7 @@ export default function Intro() {
             <div className="row align-items-center">
                <div className="col-md-6">
                   <div className="intro-text">
-                     <h1>
+                     <h1 className="fw-bold">
                         Welcome to{" "}
                         <span className="text-pink">CWEmbassy's</span>{" "}
                         Blockchain Universe
@@ -34,9 +34,9 @@ export default function Intro() {
                </div>
                <div className="col-md-6">
                   <div className="img-wrap">
-                     <img src="/asset/cw.jpeg" alt="CWE" />
-                     <img src="/asset/cw.jpeg" alt="CWE" />
-                     <img src="/asset/cw.jpeg" alt="CWE" />
+                     <img src="/asset/dtgcook.jpeg" alt="CWE" />
+                     <img src="/asset/dtggang.jpeg" alt="CWE" />
+                     <img src="/asset/dtgceo.jpeg" alt="CWE" />
                   </div>
                </div>
             </div>

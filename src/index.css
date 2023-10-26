@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+#root h1, #root span, #root a, #root h2, #root h3, #root li, #root small {
+   font-family: "Nunito", sans-serif;
+}
+
 .btn {
    border-radius: 0;
    /* border: none; */
@@ -18,7 +24,7 @@
 .bg-gray {
    background: #e8e8e8;
 }
-.h-wrap{
+.h-wrap {
    position: relative;
 }
 .h-wrap::after {
@@ -29,9 +35,9 @@
    width: 100%;
    background: linear-gradient(to left, #a13523, #ef3a7b);
 }
-.bg-dark{
+.bg-dark {
    background: #131313 !important;
 }
-.bg-dark2{
+.bg-dark2 {
    background: #0b0b0b;
 }
