@@ -1,0 +1,37 @@
+.btn {
+   border-radius: 0;
+   /* border: none; */
+   font-size: 12px;
+}
+.bg-grad {
+   background: linear-gradient(to left, #a13523, #1a010a);
+}
+.text-pink {
+   color: #a13523;
+}
+.text-gray {
+   color: #666666;
+}
+.bg-pink {
+   background: #a13523;
+}
+.bg-gray {
+   background: #e8e8e8;
+}
+.h-wrap{
+   position: relative;
+}
+.h-wrap::after {
+   content: "";
+   position: absolute;
+   height: 5px;
+   border-radius: 10px;
+   width: 100%;
+   background: linear-gradient(to left, #a13523, #ef3a7b);
+}
+.bg-dark{
+   background: #131313 !important;
+}
+.bg-dark2{
+   background: #0b0b0b;
+}
