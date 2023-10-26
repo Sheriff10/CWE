@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Trusted() {
    return (
-      <div className="trusted bg-dark2 text-light py-5">
+      <div className="trusted bg-dark2 text-light py-5" id="trustee">
          <div className="container">
             <div className="head text-center mb-3">
                 <span className=" fs-4fw-bold">

@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 export default function Experience() {
    return (
-      <div className="exp py-5 bg-dark">
+      <div className="exp py-5 bg-dark" id="experience">
          <div className="container">
             <div className="head d-flex  mb-4">
                <div className="h-wrap">

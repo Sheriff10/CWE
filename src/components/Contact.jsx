@@ -3,7 +3,7 @@ import { FaTelegram, FaTwitter } from "react-icons/fa6";
 
 export default function Contact() {
    return (
-      <div className="contact">
+      <div className="contact" id="contact">
          <div className="bg-wrap py-5">
             <div className="container">
                <div className="head">

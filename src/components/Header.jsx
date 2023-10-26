@@ -11,15 +11,7 @@ export default function Header() {
             <div className="container">
                <div className="d-flex justify-content-between align-items-center">
                   <div className="logo-con">
-                     <div className="text-wrap">
-                        <span className="m-header fs-5 fw-bold">
-                           {" "}
-                           CWE{" "}
-                           <span className="text-black px-2 rounded bg-pink">
-                              Consult
-                           </span>
-                        </span>
-                     </div>
+                    <img src="/asset/logo.png" alt="CWE Consult" width={50} />
                   </div>
                   <div className="menu-con flex-wrap">
                      {/* MB-Display  */}
@@ -46,16 +38,16 @@ export default function Header() {
                      {/* Menu link */}
                      <ul className="d-flex gap-4 mt-3 list-unstyled">
                         <li>
-                           <a href="#">Some Link</a>
+                           <a href="#about">About CWE</a>
                         </li>
                         <li>
-                           <a href="#">Some Link</a>
+                           <a href="#trustee">Trustee</a>
                         </li>
                         <li>
-                           <a href="#">Some Link</a>
+                           <a href="#experience">Experience</a>
                         </li>
                         <li>
-                           <a href="#">Some Link</a>
+                           <a href="#contact">Contact</a>
                         </li>
                      </ul>
                   </div>
